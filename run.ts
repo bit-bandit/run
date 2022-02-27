@@ -7,7 +7,7 @@
 import { parse } from "https://deno.land/std@0.127.0/flags/mod.ts";
 import { parse as yamlparse } from "https://deno.land/std@0.127.0/encoding/yaml.ts";
 
-const flags = parse(Deno.args);
+const flags = await parse(Deno.args);
 let yaml = `runfile`;
 
 // Overwrite `yaml` variable if specified.
