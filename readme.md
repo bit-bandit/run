@@ -1,5 +1,6 @@
-# `run` - Command runner.
-
+# ~~`run` - Command runner.~~
+# NOTE: This project has been rendered bbsolete by `deno task`. Use that, instead of this!
+---
 `run` is a simple, YAML-based command runner.
 
 ## Synopsis
